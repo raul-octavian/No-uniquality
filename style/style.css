@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+}
+
+header {
+    margin: 0 auto;
+
+    /* height: 50vh; */
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+
+.navigation {
+    height: 100px;
+    width: 80%;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    height: 100%;
+    padding: 0;
+}
+
+.navigation-item {
+    margin-right: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.how-to-contribute {
+    width: 100vw;
+}
+
+.image {
+    width: 100%;
+}
+
+.container-box {
+    flex: 1;
+    flex-grow: 1;
+}
+
+/* ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    height: 100%;
+    padding: 0;
+} */
+
+
+
+.title-banner {
+    background-color: #e11a84;
+    color: white;
+    padding: 2em;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.container-box {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-ul {
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+
+i {
+    color: #e11a84;
+}
+
+.footer-container h1 {
+    text-align: center;
+    font-size: 2rem;
+
+}
