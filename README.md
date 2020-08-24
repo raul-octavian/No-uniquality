@@ -1,1 +1,1 @@
-# No-uniquality
+# No-inequality
