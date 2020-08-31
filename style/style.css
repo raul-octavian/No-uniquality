@@ -24,15 +24,23 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+p {
+    font-weight: 400;
+}
 
 
 .navigation {
@@ -90,15 +98,21 @@ h2 {
 
 }
 
+.title-banner__text {
+
+}
+
 .flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 1em;
 }
 
 
 .container-box {
     flex: 1;
+    padding: 1em;
 }
 
 a {
