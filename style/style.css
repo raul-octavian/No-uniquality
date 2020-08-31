@@ -68,6 +68,7 @@ p {
     font-weight: 600;
     height: 100%;
     text-transform: uppercase;
+    margin: 0 .5em 0 .5em;
 
 }
 .navigation-item img {
@@ -130,10 +131,15 @@ p {
 
 .title-banner {
     background-color: #e11a84;
+    background: rgb(89,88,89);
+background: linear-gradient(0deg, rgba(89,88,89,0) 8%, rgba(225,26,132,1) 25%);
     color: white;
-    padding: 2em;
+    padding-bottom: 6em;
+   
 
 }
+
+
 
 .title-banner__img {
     padding: 2em;
