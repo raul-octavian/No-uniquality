@@ -1,3 +1,13 @@
+/*
+Theme Name: SDG17
+Theme URI: 
+Author: Christina Pedersen, Julia, Raul
+Author URI: 
+Description: A basic HTML / CSS theme
+Text Domain: SDG17
+*/
+
+
 html {
   box-sizing: border-box;
 }
@@ -12,9 +22,6 @@ body {
   margin: 0 auto;
   font-family: 'Oswald', sans-serif;
   color: #333333;
-  line-height: 1.6;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 header {
@@ -69,6 +76,7 @@ li {
   text-transform: uppercase;
   margin: 0 0.5em 0 0.5em;
 }
+
 .navigation-item img {
   height: 3rem;
 }
@@ -124,11 +132,9 @@ li {
 .title-banner {
   background-color: #e11a84;
   background: rgb(89, 88, 89);
-  background: linear-gradient(
-    0deg,
-    rgba(89, 88, 89, 0) 8%,
-    rgba(225, 26, 132, 1) 25%
-  );
+  background: linear-gradient(0deg,
+      rgba(89, 88, 89, 0) 8%,
+      rgba(225, 26, 132, 1) 25%);
   color: white;
   padding: 3em 2em 6em 2em;
 }
@@ -143,6 +149,9 @@ li {
 
 .title-banner__text {
   padding: 1em 2em 3em 2em;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .header-flex {
@@ -162,6 +171,15 @@ li {
 
 a {
   text-decoration: none;
+  color: #e11a84;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -190,6 +208,7 @@ i {
   :root {
     font-size: 12px;
   }
+
   .flex {
     flex-direction: column;
   }
@@ -197,6 +216,7 @@ i {
   .how-to-contribute {
     flex-direction: column-reverse;
   }
+
   .title-banner__text {
     padding: 2em;
   }
@@ -205,6 +225,7 @@ i {
     padding: 2em;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .flex {
     flex-direction: column;
@@ -213,9 +234,11 @@ i {
   .how-to-contribute {
     flex-direction: column-reverse;
   }
+
   .small-about {
     padding-left: 0;
   }
+
   .container-box {
     width: 100%;
   }
@@ -227,6 +250,7 @@ i {
   .title-banner__img {
     padding: 2em;
   }
+
   /*  .resp-iframe {
         position: absolute;
         top: 0;
@@ -245,13 +269,10 @@ i {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+@media only screen and (min-width: 1200px) {}
