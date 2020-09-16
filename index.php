@@ -1,3 +1,4 @@
+
 <?php get_header();?>
 
 <body>
@@ -14,7 +15,6 @@
                 <li class="navigation-item">
                     <a href="">
                         <i class="<?php the_field('home-logo'); ?> fa-2x">
-                        
                     </i>
                     </a>
                 </li>
