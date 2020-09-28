@@ -1,530 +1,530 @@
 [
-    {
-        "key": "group_5f55f6e1d90c5",
-        "title": "banner",
-        "fields": [
-            {
-                "key": "field_5f55f743fdc87",
-                "label": "banner-h1",
-                "name": "banner-h1",
-                "type": "text",
-                "instructions": "Put headline here",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f55f76bfdc88",
-                "label": "banner-h2",
-                "name": "banner-h2",
-                "type": "text",
-                "instructions": "Put h2 here",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f55f795fdc89",
-                "label": "banner-h3",
-                "name": "banner-h3",
-                "type": "text",
-                "instructions": "h3 woo",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f55f89b7f5b9",
-                "label": "goal-symbol",
-                "name": "goal-symbol",
-                "type": "image",
-                "instructions": "Put goal symbol here",
-                "required": 1,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "url",
-                "preview_size": "medium",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
-            },
-            {
-                "key": "field_5f5610e04e845",
-                "label": "header-logo",
-                "name": "header-logo",
-                "type": "image",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "url",
-                "preview_size": "medium",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
-            },
-            {
-                "key": "field_5f5611bc0187c",
-                "label": "home-logo",
-                "name": "home-logo",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "page",
-                    "operator": "==",
-                    "value": "11"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": [
-            "permalink",
-            "excerpt",
-            "discussion",
-            "comments",
-            "revisions",
-            "slug",
-            "author",
-            "format",
-            "page_attributes",
-            "featured_image",
-            "categories",
-            "tags",
-            "send-trackbacks"
-        ],
-        "active": true,
-        "description": ""
-    },
-    {
-        "key": "group_5f5607d232c57",
-        "title": "footer",
-        "fields": [
-            {
-                "key": "field_5f5607da5c23d",
-                "label": "footer-h1",
-                "name": "footer-h1",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f560ca40f11d",
-                "label": "footer-fb",
-                "name": "footer-fb",
-                "type": "url",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": ""
-            },
-            {
-                "key": "field_5f560cdb0f11e",
-                "label": "footer-tw",
-                "name": "footer-tw",
-                "type": "url",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": ""
-            },
-            {
-                "key": "field_5f560ce80f11f",
-                "label": "footer-ig",
-                "name": "footer-ig",
-                "type": "url",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": ""
-            },
-            {
-                "key": "field_5f560cf30f120",
-                "label": "footer-yt",
-                "name": "footer-yt",
-                "type": "url",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": ""
-            },
-            {
-                "key": "field_5f560f5ce768b",
-                "label": "footer-fb-icon",
-                "name": "footer-fb-icon",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f5610011d3d3",
-                "label": "footer-tw-icon",
-                "name": "footer-tw-icon",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f5610101d3d4",
-                "label": "footer-ig-icon",
-                "name": "footer-ig-icon",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f5610191d3d5",
-                "label": "footer-yt-icon",
-                "name": "footer-yt-icon",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "page",
-                    "operator": "==",
-                    "value": "11"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": [
-            "permalink",
-            "excerpt",
-            "discussion",
-            "comments",
-            "revisions",
-            "slug",
-            "author",
-            "format",
-            "page_attributes",
-            "featured_image",
-            "categories",
-            "tags",
-            "send-trackbacks"
-        ],
-        "active": true,
-        "description": ""
-    },
-    {
-        "key": "group_5f55fb8104646",
-        "title": "Section1",
-        "fields": [
-            {
-                "key": "field_5f55fbdb5eb95",
-                "label": "about-text",
-                "name": "about-text",
-                "type": "wysiwyg",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "tabs": "all",
-                "toolbar": "full",
-                "media_upload": 1,
-                "delay": 0
-            },
-            {
-                "key": "field_5f55fc475eb96",
-                "label": "about-video",
-                "name": "about-video",
-                "type": "url",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "page",
-                    "operator": "==",
-                    "value": "11"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": [
-            "permalink",
-            "excerpt",
-            "discussion",
-            "comments",
-            "revisions",
-            "slug",
-            "author",
-            "format",
-            "page_attributes",
-            "featured_image",
-            "categories",
-            "tags",
-            "send-trackbacks"
-        ],
-        "active": true,
-        "description": ""
-    },
-    {
-        "key": "group_5f55ff2797f8c",
-        "title": "Section2",
-        "fields": [
-            {
-                "key": "field_5f55ff37e1159",
-                "label": "contribute-h2",
-                "name": "contribute-h2",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_5f55ff83e115c",
-                "label": "contribute-text",
-                "name": "contribute-text",
-                "type": "wysiwyg",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "tabs": "all",
-                "toolbar": "full",
-                "media_upload": 1,
-                "delay": 0
-            },
-            {
-                "key": "field_5f5603b8a4a22",
-                "label": "contribute-img",
-                "name": "contribute-img",
-                "type": "image",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "return_format": "url",
-                "preview_size": "medium",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "page",
-                    "operator": "==",
-                    "value": "11"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": [
-            "permalink",
-            "excerpt",
-            "discussion",
-            "comments",
-            "revisions",
-            "slug",
-            "author",
-            "format",
-            "page_attributes",
-            "featured_image",
-            "categories",
-            "tags",
-            "send-trackbacks"
-        ],
-        "active": true,
-        "description": ""
-    }
+  {
+    "key": "group_5f55f6e1d90c5",
+    "title": "banner",
+    "fields": [
+      {
+        "key": "field_5f55f743fdc87",
+        "label": "banner-h1",
+        "name": "banner-h1",
+        "type": "text",
+        "instructions": "Put headline here",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Goal 10",
+        "placeholder": "Goal 10",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f55f76bfdc88",
+        "label": "banner-h2",
+        "name": "banner-h2",
+        "type": "text",
+        "instructions": "Put h2 here",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Reduce inequality within and among countries",
+        "placeholder": "Reduce inequality within and among countries",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f55f795fdc89",
+        "label": "banner-h3",
+        "name": "banner-h3",
+        "type": "text",
+        "instructions": "Short description of goal",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "In 73 of the 90 countries with comparable data during the period 2012–2017, the bottom 40 per cent of the population saw its incomes grow. Still, in all countries with data, the bottom 40 per cent of the population received less than 25 per cent of the overall income or consumption, while the top 10 per cent received at least 20 per cent of the income.",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f55f89b7f5b9",
+        "label": "goal-symbol",
+        "name": "goal-symbol",
+        "type": "image",
+        "instructions": "Put goal symbol here",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "url",
+        "preview_size": "medium",
+        "library": "all",
+        "min_width": "",
+        "min_height": "",
+        "min_size": "",
+        "max_width": "",
+        "max_height": "",
+        "max_size": "",
+        "mime_types": ""
+      },
+      {
+        "key": "field_5f5610e04e845",
+        "label": "header-logo",
+        "name": "header-logo",
+        "type": "image",
+        "instructions": "",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "url",
+        "preview_size": "medium",
+        "library": "all",
+        "min_width": "",
+        "min_height": "",
+        "min_size": "",
+        "max_width": "",
+        "max_height": "",
+        "max_size": "",
+        "mime_types": ""
+      },
+      {
+        "key": "field_5f5611bc0187c",
+        "label": "home-logo",
+        "name": "home-logo",
+        "type": "text",
+        "instructions": "Insert a class of fontawesome icon\r\nfor example: fas fa-home",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "fas fa-home",
+        "placeholder": "fas fa-home",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "page",
+          "operator": "==",
+          "value": "96"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+      "permalink",
+      "excerpt",
+      "discussion",
+      "comments",
+      "revisions",
+      "slug",
+      "author",
+      "format",
+      "page_attributes",
+      "featured_image",
+      "categories",
+      "tags",
+      "send-trackbacks"
+    ],
+    "active": true,
+    "description": ""
+  },
+  {
+    "key": "group_5f5607d232c57",
+    "title": "footer",
+    "fields": [
+      {
+        "key": "field_5f5607da5c23d",
+        "label": "footer-h1",
+        "name": "footer-h1",
+        "type": "text",
+        "instructions": "Footer title",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Connect",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f560ca40f11d",
+        "label": "footer-fb",
+        "name": "footer-fb",
+        "type": "url",
+        "instructions": "Insert link to your facebook page",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "https://www.facebook.com/globalgoalsUN",
+        "placeholder": "https://www.facebook.com/globalgoalsUN"
+      },
+      {
+        "key": "field_5f560cdb0f11e",
+        "label": "footer-tw",
+        "name": "footer-tw",
+        "type": "url",
+        "instructions": "Instert lin k to your twitter page",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "https://twitter.com/globalgoalsun",
+        "placeholder": "https://twitter.com/globalgoalsun"
+      },
+      {
+        "key": "field_5f560ce80f11f",
+        "label": "footer-ig",
+        "name": "footer-ig",
+        "type": "url",
+        "instructions": "Instert link to your instagram",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "https://www.instagram.com/theglobalgoals/?hl=pl",
+        "placeholder": "https://www.instagram.com/theglobalgoals/?hl=pl"
+      },
+      {
+        "key": "field_5f560cf30f120",
+        "label": "footer-yt",
+        "name": "footer-yt",
+        "type": "url",
+        "instructions": "Insert link to your Youtube page",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "https://www.youtube.com/channel/UC5O114-PQNYkurlTg6hekZw",
+        "placeholder": "https://www.youtube.com/channel/UC5O114-PQNYkurlTg6hekZw"
+      },
+      {
+        "key": "field_5f560f5ce768b",
+        "label": "footer-fb-icon",
+        "name": "footer-fb-icon",
+        "type": "text",
+        "instructions": "Insert class name of font awesome icon:\r\nfor example:\r\nfab fa-facebook",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "fab fa-facebook",
+        "placeholder": "fab fa-facebook",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f5610011d3d3",
+        "label": "footer-tw-icon",
+        "name": "footer-tw-icon",
+        "type": "text",
+        "instructions": "Insert class name of font awesome icon:\r\nfor example:\r\nfab fa-facebook",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "fab fa-twitter",
+        "placeholder": "fab fa-facebook",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f5610101d3d4",
+        "label": "footer-ig-icon",
+        "name": "footer-ig-icon",
+        "type": "text",
+        "instructions": "Insert class name of font awesome icon:\r\nfor example:\r\nfab fa-facebook",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "fab fa-instagram",
+        "placeholder": "fab fa-instagram",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f5610191d3d5",
+        "label": "footer-yt-icon",
+        "name": "footer-yt-icon",
+        "type": "text",
+        "instructions": "Insert class name of font awesome icon:\r\nfor example:\r\nfab fa-facebook",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "fab fa-instagram",
+        "placeholder": "fab fa-instagram",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "page",
+          "operator": "==",
+          "value": "96"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+      "permalink",
+      "excerpt",
+      "discussion",
+      "comments",
+      "revisions",
+      "slug",
+      "author",
+      "format",
+      "page_attributes",
+      "featured_image",
+      "categories",
+      "tags",
+      "send-trackbacks"
+    ],
+    "active": true,
+    "description": ""
+  },
+  {
+    "key": "group_5f55fb8104646",
+    "title": "Section1",
+    "fields": [
+      {
+        "key": "field_5f55fbdb5eb95",
+        "label": "about-text",
+        "name": "about-text",
+        "type": "wysiwyg",
+        "instructions": "Put goal description here",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "What’s the goal here?\r\n\r\nTo reduce inequalities within and among countries.\r\n\r\nWhy?\r\n\r\nInequalities based on income, sex, age, disability, sexual orientation, race, class, ethnicity, religion, and opportunity continue to persist across the world, within and among countries. Inequality threatens long- term social and economic development, harms poverty reduction, and destroys people’s sense of fulfillment and self-worth. This, in turn, can breed crime, disease, and environmental degradation.\r\n\r\nMost importantly, we cannot achieve sustainable development and make\r\nthe planet better for all if people are excluded from opportunities, services, and the chance for a better life. Despite progress in some areas, income inequality continues to rise in many parts of the world\r\n\r\nWhat are some examples of inequality?\r\n\r\n16,000 children die each day from preventable diseases such as measles and tuberculosis. Rural women are three times more likely to die while giving birth than women in urban centers. Persons with disabilities are the world’s largest minority. 80 percent of them live in developing countries. Women and girls with disabilities face double discrimination. These are just a few examples, but it is an issue that affects every country in the world.",
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 0
+      },
+      {
+        "key": "field_5f55fc475eb96",
+        "label": "about-video",
+        "name": "about-video",
+        "type": "url",
+        "instructions": "Instert link from youtube embed",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "https://www.youtube.com/embed/P-xWg3WZUHw",
+        "placeholder": "https://www.youtube.com/embed/P-xWg3WZUHw"
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "page",
+          "operator": "==",
+          "value": "96"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+      "permalink",
+      "excerpt",
+      "discussion",
+      "comments",
+      "revisions",
+      "slug",
+      "author",
+      "format",
+      "page_attributes",
+      "featured_image",
+      "categories",
+      "tags",
+      "send-trackbacks"
+    ],
+    "active": true,
+    "description": ""
+  },
+  {
+    "key": "group_5f55ff2797f8c",
+    "title": "Section2",
+    "fields": [
+      {
+        "key": "field_5f55ff37e1159",
+        "label": "contribute-h2",
+        "name": "contribute-h2",
+        "type": "text",
+        "instructions": "Section 2 header goes here",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "What can we do?",
+        "placeholder": "What can we do?",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_5f55ff83e115c",
+        "label": "contribute-text",
+        "name": "contribute-text",
+        "type": "wysiwyg",
+        "instructions": "Put descriprion of what can we do here",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "Reducing inequality requires transformative change. Greater efforts are needed to eradicate extreme poverty and hunger, and invest more in health, education, social protection, and decent jobs especially for young people, migrants, and other vulnerable communities.\r\n\r\nWithin countries, it is important to empower and promote inclusive social and economic growth. We can ensure equal opportunity and\r\n\r\nreduce inequalities of income if we eliminate discriminatory laws, policies, and practices.\r\n\r\nAmong countries, we need to ensure that developing countries are better represented in decision-making on global issues so that solutions can be more effective, credible, and accountable.\r\n\r\nGovernments and other stakeholders can also promote safe, regular, and responsible migration, including through planned and well-managed policies, for the millions of people who have left their homes seeking better lives due to war, discrimination, poverty, lack of opportunity, and other drivers of migration.",
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 0
+      },
+      {
+        "key": "field_5f5603b8a4a22",
+        "label": "contribute-img",
+        "name": "contribute-img",
+        "type": "image",
+        "instructions": "Put illustration here",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "url",
+        "preview_size": "medium",
+        "library": "all",
+        "min_width": "",
+        "min_height": "",
+        "min_size": "",
+        "max_width": "",
+        "max_height": "",
+        "max_size": "",
+        "mime_types": ""
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "page",
+          "operator": "==",
+          "value": "96"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+      "permalink",
+      "excerpt",
+      "discussion",
+      "comments",
+      "revisions",
+      "slug",
+      "author",
+      "format",
+      "page_attributes",
+      "featured_image",
+      "categories",
+      "tags",
+      "send-trackbacks"
+    ],
+    "active": true,
+    "description": ""
+  }
 ]
