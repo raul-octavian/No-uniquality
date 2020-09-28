@@ -8,7 +8,7 @@ function add_theme_scripts(){
 add_action('wp_enqueue_scripts', 'add_theme_scripts');
 
 
-function setup_field_group() {
+function setup_field_groups() {
     
     if( function_exists('acf_add_local_field_group') ):
 
